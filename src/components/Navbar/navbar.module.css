@@ -1,0 +1,28 @@
+.navbar {
+	margin-top: -16px;
+	width: 98%;
+	height: 70px;
+	background-color: #a0a0f9;
+	color: #d6c6e9;
+	padding: 10px 1%;
+	position: sticky;
+	display: flex;
+	align-self: center;
+}
+
+.navbar span {
+	font-size: 1.2rem;
+	font-weight: 800;
+	margin-top: 30px;
+	color: black;
+	margin-left: 3px;
+	font-family: "Poppins", sans-serif;
+}
+
+.coverImage {
+	height: 50px;
+	width: 50px;
+	margin-right: 5px;
+	margin-top: 18px;
+	margin-left: 55px;
+}

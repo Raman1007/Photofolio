@@ -1,0 +1,115 @@
+.btnContainer {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin-block: 30px;
+	width: 70%;
+	margin-top: 20px;
+}
+
+.btnContainer input {
+	width: 60%;
+	font-size: 1.1rem;
+	font-weight: 300;
+	outline: none;
+	padding: 5px 15px 10px 15px;
+	font-family: "Poppins", sans-serif;
+	margin-right: -60px;
+}
+
+.btn {
+	width: 90px;
+	height: 31px;
+	color: white;
+}
+
+.backBtn {
+	align-items: center;
+	aspect-ratio: 1;
+	background-color: #fcfcfc;
+	border-radius: 50%;
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.24);
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	margin-right: 30px;
+	width: 50px;
+}
+.image {
+	width: 30px;
+}
+
+.imageSearch {
+	align-items: center;
+	display: flex;
+	gap: 10px;
+	margin-left: auto;
+	margin-right: 30px;
+}
+
+h1 {
+	float: left;
+	font-size: 2.2rem;
+	font-weight: bold;
+	color: #bcb7f5;
+	font-family: cursive;
+}
+
+h1:hover {
+	color: #4939ff;
+	cursor: pointer;
+}
+
+.addBtn {
+	background-color: rgba(0, 119, 255, 0.1);
+	border: 2px solid #07f;
+	border-radius: 5px;
+	color: #07f;
+	cursor: pointer;
+	font-weight: 700;
+	outline: none;
+	padding: 5px 5px;
+	margin: -46px;
+}
+
+.imageList {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	cursor: pointer;
+}
+
+.imageContainer {
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	gap: 30px;
+	inset: 0;
+	justify-content: center;
+	position: fixed;
+	z-index: 999;
+}
+
+.SetImage {
+	height: 80px;
+	object-fit: cover;
+	width: 100px;
+}
+
+.closebutton {
+	position: absolute;
+	right: 50px;
+	top: 50px;
+	align-items: center;
+	aspect-ratio: 1;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	display: flex;
+	font-size: 1.6rem;
+	font-weight: 800;
+	justify-content: center;
+	outline: none;
+	transition: 0.3s;
+	width: 60px;
+}
